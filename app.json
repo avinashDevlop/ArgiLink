@@ -1,23 +1,27 @@
 {
   "expo": {
-    "name": "ArgiLink",
-    "slug": "ArgiLink",
+    "name": "Agri Link",
+    "slug": "agri",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/iconAndSplash.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/iconAndSplash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#004324"
     },
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#4CAF50"
+    },  
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/iconAndSplash.png",
         "backgroundColor": "#ffffff"
       }
     },
